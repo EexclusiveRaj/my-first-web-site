@@ -1,0 +1,480 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#jui{
+    background-color:dodgerblue;
+     display: flex;                             /* logo */
+    justify-content: space-between;
+    align-items: center;
+}
+.p-Design{
+    color: yellow;
+    
+  
+}
+#jui> ul> li{
+    list-style: none;
+    margin: 0px 5px;
+    margin-left: -5px;
+padding: 15px 0;}
+#jui> ul> li:first-child> a{
+    border-left: 1px solid white;
+}
+#jui> ul> li> a{
+    text-decoration: none;
+    color: white;
+    border-right:1px solid white ;
+    padding: 15px 20px;
+    transition: 1s;
+}
+#jui> ul{
+    display: flex;
+    margin-right: 50px;
+}
+#jui h2{
+    color: white;
+    margin-left: 10px;
+     
+}
+#jui> ul> li:hover > a{
+    background-color: red;
+    opacity: 1;
+
+}
+.dropdown{
+    background-color: black;
+    position: absolute;
+    margin-top: 15px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s;
+
+    
+}
+.dropdown > li{
+
+list-style: none;
+padding: 20px 0;
+text-align: center;
+
+
+
+border-bottom: 1px  solid white;
+
+
+}
+.dropdown > li> a{
+    text-decoration: none;
+    color: white;
+    padding:20px 20px ;
+    
+    
+}
+.dropdown > li:hover a{
+    background: red;
+
+}
+#jui > ul >li:hover > .dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+/* hero area code here */
+.main-header{
+    
+    background-image: url(images/web\ header.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+
+    height: 90vh;
+    text-align: center;
+    margin-top:  5px;
+}
+.header-content{
+    padding: 100px;
+    /* color: white; */
+}
+.header-content> h1{
+    background-color:#0864c07d;
+    color:white;
+    width: 400px;
+    margin: auto;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    .header-content> button h4{
+        font-size: 25px;
+        
+    
+    }
+   
+
+}
+.header-content> h5{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+.header-content > h4{
+    color: rgb(95, 95, 86);
+    font-size: 20px;
+}
+
+    .header-content> button h4{
+        color: red;
+        font-size: 25px;
+        
+    
+    }
+
+
+.header-content> button{
+    font-size: 25px;
+    padding: 20px 25px;
+    margin-top: 20px;
+    background-color: #0864c07d;
+    color: white;
+    border-radius: 40px 10px 40px 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.header-content> button:hover{
+
+    background-color:#002143;
+
+}
+/* social icon */
+.social-icon > a{
+    color: white;
+
+}
+.social-icon > a > i{
+    font-size: 30px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 1.6;
+    margin: 10px 5px;
+    background-color: dodgerblue;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: .4s;
+}
+.social-icon > a > i:hover{
+    background-color: #002143;
+    border: 2px solid dodgerblue;
+    transform: rotate(360deg);
+    
+}
+/* main area code here */
+
+.box-content{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 100px 180px;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    
+}
+.first-box{
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.first-box> h2{
+    margin: 15px 0;
+}
+.first-box> i{
+    font-size: 50px;
+}
+.first-box:hover{
+    box-shadow: 3px 3px 10px;
+}
+.secound-box{
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+ 
+}
+.secound-box> h2{
+    margin: 15px 0;
+}
+.secound-box> i{
+    font-size: 50px;
+    
+}
+.secound-box:hover{
+    box-shadow: 3px 3px 10px; 
+}
+
+.third-box{
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.third-box> h2{
+    margin: 15px 0;
+}
+.third-box> i{
+    font-size: 50px;
+}
+.third-box:hover{
+    box-shadow: 3px 3px 10px ;
+
+}
+/* SECTION-1 CODE HERE */
+.smart-area-title h2{
+
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+
+}
+.smart-area-title > h2::after {
+	content: "";
+	top: 56px;
+	left: 622px;
+	width: 116px;
+	height: 5px;
+	background:#840a0a ;
+	position: absolute;
+
+}
+.smart-area{
+    display: flex;
+    width: 1000px;
+    text-align:left;
+    margin: auto;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.smart-text{
+    width: 500px;
+}
+.smart-area-title{
+    padding: 30px 0;
+}
+.images{
+    margin-right: 60px;
+}
+.smart-text> h4{
+    margin: 20px 0;
+    color: #840a0a;
+}
+.smart-text> h2{
+    margin: 20px 0;
+   
+}
+.smart-text> a{
+    text-decoration: none;
+    color: black;
+    background:#840a0a ;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 25px 5px 25px 5px ;
+}
+.smart-text> a:hover{
+    background-color: #943131;
+}
+/* thrid section code start here */
+.third-main-section{
+    background-color: #b67e7e;
+    padding-top: 30px;
+}
+
+
+.services-title{
+    text-align: center;
+
+}
+.services-title> h2{
+    font-size: 40px;
+}
+
+.each-services-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+
+}
+.services-area{
+    width: 1000px;
+    margin:auto;
+
+}
+.each-services{
+    background-color: #4aa1f9;
+    text-align: center;
+    padding: 30px 0;
+    color:black;
+}
+.each-services > i{
+    font-size: 40px;
+    color: #830707;
+
+}
+.each-services> h3{
+    margin: 15px 0;
+}
+
+.each-services:hover{
+    background:#0080ff ;
+    cursor: pointer;
+
+}
+/* Fourth section code start her */
+.fort-section-area{
+    background-color:#3a803a4c;
+}
+.all-card-parent{
+    width: 1000px;
+    margin: auto;
+}
+.fourth-section-heading{
+    text-align: center;
+    font-size: 45px;
+    padding: 50px 0;
+}
+.card-area-main-content{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+.card-image-area{
+    width: 300px;
+    
+}
+.card-image-area> img{
+    max-width: 300px;
+
+}
+.three-card-parent{
+    width: 300px;
+    
+    
+}
+.three-card-parent> h3{
+    text-align: center;
+    margin: 10px 0;
+}
+.pricing-area{
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    margin: 15px 20px;
+    padding: 15px 0;
+}
+.dullar-pricing-span1{
+    font-size: 30px;
+}
+.per-month-span2{
+    color: gray;
+}
+.three-card-parent> button{
+    background-color: #830707;
+    color:black;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight:bolder;
+    border: 2px solid #101010;
+    transition: 0.5s;
+}
+.three-card-parent> button:hover{
+    background-color: #83070700;
+}
+.three-card-parent> a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+/* section five testominials code here */
+.section-five-testominials{
+    background-color:#445363;
+
+}
+.Testominals-heading{
+    text-align: center;
+    padding: 50px 0;
+}
+.Testominals-heading> h2{
+    font-size: 40px;
+    margin: 10px;
+
+}
+
+.Testominals-heading> h4{
+    letter-spacing: 0.3em;
+    color: gray;
+}
+.testomonial-parent{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap:30px;
+width: 1000px;
+margin: auto;
+padding-bottom: 100px;
+    
+}
+.testominial-single-box-parent{
+    display: flex;
+    align-items: center;
+    background-color:#e1dddd;
+    padding: 20px;
+    transition: .5s;
+
+}
+.testominial-single-box-parent:hover{
+    color: gray;
+
+}
+
+.single-box-image{
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.single-box-image> img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid gray;
+   
+    
+}
+.testominial-span{
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.testominial-icon{
+    margin-top: 10px;
+    color: #ffa534;
+}
+
+
+
+
+
